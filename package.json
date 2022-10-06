@@ -1,0 +1,22 @@
+{
+  "name": "preentrega-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
+    "build-css2": "node-sass --include-path scss scss/productos.scss css/productos.css",
+    "build-css3": "node-sass --include-path scss scss/contacto.scss css/contacto.css",
+    "build-css4": "node-sass --include-path scss scss/nosotros.scss css/nosotros.css",
+    "build-css5": "node-sass --include-path scss scss/contacto-recibido.scss css/contacto-recibido.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
